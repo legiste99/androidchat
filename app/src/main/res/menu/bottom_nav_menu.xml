@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actions_status"
+        android:title="Status"
+        android:enabled="true"
+        android:icon="@drawable/image_status_default"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_camera"
+        android:title="Camera"
+        android:enabled="true"
+        android:icon="@drawable/image_camera_default"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"
+        />
+
+    <item
+        android:id="@+id/action_chats"
+        android:title="Chats"
+        android:enabled="true"
+        android:icon="@drawable/image_chats_default"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_calls"
+        android:title="Calls"
+        android:enabled="true"
+        android:icon="@drawable/image_calls_default"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
